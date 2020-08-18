@@ -309,17 +309,17 @@
   <!-- Add support for query stats -->
   <difference>
     <differenceType>7012</differenceType>
-    <className>com.google.cloud.spanner.SpannerOptions$SpannerEnvironment</className>
+    <className>com/google/cloud/spanner/SpannerOptions$SpannerEnvironment</className>
     <method>java.lang.String getOptimizerStatisticsPackage()</method>
   </difference>
   <difference>
     <differenceType>7012</differenceType>
-    <className>com.google.cloud.spanner.connection.Connection</className>
+    <className>com/google/cloud/spanner/connection/Connection</className>
     <method>java.lang.String getOptimizerStatisticsPackage()</method>
   </difference>
   <difference>
     <differenceType>7012</differenceType>
-    <className>com.google.cloud.spanner.connection.Connection</className>
+    <className>com/google/cloud/spanner/connection/Connection</className>
     <method>void setOptimizerStatisticsPackage(java.lang.String)</method>
   </difference>
 </differences>
